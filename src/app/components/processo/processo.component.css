@@ -1,0 +1,73 @@
+.container {
+  background: linear-gradient(#3fc43e, #1a7219);
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+/* .treco {
+  background: #1A7219;
+  height: 100%;
+  width: 40px;
+  display: grid;
+  grid-template-columns: 100%;
+} */
+
+.input {
+  text-align: center;
+}
+.input2 {
+  text-align: center;
+  margin-top: 60px;
+  background: transparent;
+}
+
+
+
+label,
+textarea {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+textarea {
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.bt {
+  position: absolute;
+  left: 5%;
+  bottom: 20px;
+  font: 200;
+  gap: 10px;
+
+}
+
+.bt1 {
+  width: 200px;
+  height: 45px;
+  border-radius: 20px;
+
+}
+.bt2 {
+  display: flex;
+  width: 200px;
+  height: 45px;
+  border-radius: 20px;
+align-items: center;
+text-align: center;
+justify-content: center;
+}

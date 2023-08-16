@@ -1,0 +1,43 @@
+.container {
+  background: linear-gradient(#3fc43e, #1a7219);
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.input {
+  text-align: center;
+}
+
+
+
+
+
+.bt {
+display: flex;
+justify-content: center;
+text-align: center;
+margin-top: 15%;
+gap: 10px;
+
+
+}
+
+.bt1 {
+  width: 200px;
+  height: 45px;
+  border-radius: 20px;
+
+}
+.bt2 {
+  display: flex;
+  width: 200px;
+  height: 45px;
+  border-radius: 20px;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
