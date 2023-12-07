@@ -1,47 +1,37 @@
-<link rel="stylesheet" href="avaliacao.component.css">
+<link rel="stylesheet" href="avaliacao.component.css" />
 
 <div class="container">
+  <div class="title">
+    <span>...</span>
+    <h1>Olá Ingrid!</h1>
+  </div>
 
+  <div class="title2">
+    <h2>MÉTODO DE AVALIAÇÃO</h2>
+  </div>
 
-        <h1>Olá Ingrid!</h1>
+  <div class="avaliacao">
+    <div class="input">
+      <h3>PROBLEMA/HIPÓTESE</h3>
+    </div>
 
-        <div class="input">
-        <h2>MÉTODO DE AVALIAÇÃO</h2>
-        </div>
+    <rating class="rate" [max]="5"> </rating>
 
-        <div class="input2">
-        <h3>PROBLEMA/HIPÓTESE</h3>
-        </div>
+    <div class="input">
+      <h4>COLETA DE DADO / METODOLOGIA</h4>
+    </div>
+    <rating class="rate" [max]="5"> </rating>
 
-        <div class="input3">
-        <h4>COLETA DE DADO / METODOLOGIA</h4>
-        </div>
+    <div class="input">
+      <h4>CONCLUSÕES</h4>
+    </div>
+    <rating class="rate" [max]="5"> </rating>
+  </div>
 
-        <div class="input4">
-        <h4>CONCLUSÕES</h4>
-
-        </div>
-        <div class="star">
-
-        <input type="radio" name="rating" id="1star" value="1">
-        <label for="1star">1</label>
-        <input type="radio" name="rating" id="2star" value="2">
-        <label for="2star">2</label>
-        <input type="radio" name="rating" id="3star" value="3">
-        <label for="3star">3</label>
-        <input type="radio" name="rating" id="4star" value="4">
-        <label for="4star">4</label>
-        <input type="radio" name="rating" id="5star" value="5">
-        <label for="5star">5</label>
-
-        </div>
-
-        <div class="bt">
+  <div class="buttons">
+    <div class="bt">
       <button class="bt1">PRÓXIMO</button>
       <button class="bt2">VOLTAR</button>
     </div>
-
-
-
-            <p>Peso 10</p>
-        </div>
+  </div>
+</div>
